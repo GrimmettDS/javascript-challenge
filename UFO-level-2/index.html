@@ -27,28 +27,7 @@
     </div>
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-2">
-          <aside class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
-              <div class="panel-body">
-                <form id="form">
-                  <div class="form-group">
-                    <ul class="list-group" id="filters">
-                      <li class="filter list-group-item">
-                        <label for="date">Enter a Date<br>
-                        (1/1/2010 - 1/13/2010</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/2/2010"/>
-                      </li>
-                    </ul>
-                  </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                </form>
-              </div>
-            </div>
-          </aside>
-        </div>
-        <div class="col-md-10">
+        <div class="col-md-12">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead>
@@ -60,6 +39,14 @@
                   <th class="table-head">Shape</th>
                   <th class="table-head">Duration</th>
                   <th class="table-head">Comments</th>
+                </tr>
+                <tr>
+                  <th class="table-head"><input id='datetime'></th>
+                  <th class="table-head"><input id='city'></th>
+                  <th class="table-head"><input id='state'></th>
+                  <th class="table-head"><input id='country'></th>
+                  <th class="table-head"><input id='shape'></th>
+                  <th class="table-head"><button class= "btn btn-success">Clear</th>
                 </tr>
               </thead>
               <tbody></tbody>
