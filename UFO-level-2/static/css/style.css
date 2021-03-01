@@ -30,8 +30,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    min-height: 100px;
-    background: #222d38;
+    min-height: 50px;
+    background: #02013f;
   }
   
   /* The code styles the text at the bottom of the footer */
@@ -40,8 +40,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 5px;
-    background: #1b3146;
+    padding: 15px;
+    min-height: 50px;
+    font-size: 14px;
+    background: #8e979f;
   }
   
   .navbar {
