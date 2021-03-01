@@ -31,7 +31,7 @@ function populateTable(data) {
 
 var filteredData = tableData;
 
-// Function handling for any changes
+// Function handling for any changes 
 function handleChange() {
 
     var key = d3.select(this).property('id');
