@@ -1,15 +1,18 @@
 
 // from data.js
 var tableData = data;
+
+// Create variables from html
 var tbody = d3.select('tbody');
 var btn = d3.select('button');
 var form = d3.select('#form')
 
+// Create event listener for "click" on the button and "return" submission
 populateTable(tableData);
 btn.on('click', handleClick);
 form.on('submit', handleClick);
 
-// =============================================
+// // Create and display the table in index.html
 function populateTable(data) {
     tbody.html("");
 
@@ -24,6 +27,7 @@ function populateTable(data) {
     });
 };
 
+// Create and display the filtered table
 function handleClick() {
     d3.event.preventDefault();
 
