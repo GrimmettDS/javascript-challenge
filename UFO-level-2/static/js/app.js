@@ -31,7 +31,7 @@ function populateTable(data) {
 
 var filteredData = tableData;
 
-//
+// Function handling for any changes
 function handleChange() {
 
     var key = d3.select(this).property('id');
@@ -44,7 +44,7 @@ function handleChange() {
     populateTable(filteredData);
 }
 
-// Create and display the filtered table with only the submitted datetime value
+// Create and display the filtered table
 function handleClick() {
     input.property("value", "");
     filteredData = tableData;
